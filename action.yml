@@ -1,4 +1,4 @@
-name: 'commentator'
+name: 'commentator-action'
 description: 'comments dynamic message on your pull requests'
 branding:
   icon: 'message-circle'
