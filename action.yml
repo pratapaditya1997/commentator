@@ -1,0 +1,15 @@
+name: 'commentator'
+description: 'comments dynamic message on your pull requests'
+branding:
+  icon: 'message-circle'
+  color: 'blue'
+inputs:
+  comment:
+    description: 'comment that you want to publish on the pull request'
+    required: true
+  GITHUB_TOKEN:
+    description: 'Github token for the repository (automatically created by github)'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.ts'
